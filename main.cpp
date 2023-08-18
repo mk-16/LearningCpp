@@ -112,7 +112,7 @@ public:
 		{
 			takeInput();
 			parseInput();
-				calculate();
+			calculate();
 			printResults();
 			clean();
 
@@ -127,6 +127,7 @@ int main()
 		take inputs from user;
 		allow operations of + or - or * or /
 		it will output the result of the math operation of the input
+		calculator will work with arithmetics rules e.g * before +, and ( or [ are acceptable grouping symbols
 	*/
 	Calculator calculator = {};
 	calculator.run();
